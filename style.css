@@ -1,0 +1,79 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding: 12% 50px 150px;
+  font-size: 13px;
+  text-align: center;
+  background: #110e0b;
+  text-decoration: none;
+  position: fixed;
+  margin: 0;
+  left: 0;
+  right: 0;
+  color: #c6afa3;
+}
+
+form {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+input {
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(28,23,18);
+  border: none;
+  color: #c6afa3;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.taxes {
+  position: fixed;
+  top: 45%;
+  height: 100px;
+  width: 800px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.calculator {
+  position: relative;
+  display: inline-block;
+}
+
+.tax-out {
+  top: 50%;
+  display: none;
+  font-size: 18px;
+  font-family: 'Arvo', serif;
+}
+
+.tax-in {
+  height: 40px;
+  font-size: 18px;
+  font-family: 'Arvo', serif;
+}
+
+.num {
+  width: 120px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(198,175,163);
+  color: rgba(198,175,163,0.3);
+  font-family: 'Quicksand Bold', sans-serif;
+}
+
+::-moz-placeholder { /* Firefox 19+ */  
+  color: rgb(198,175,163);
+  color: rgba(198,175,163,0.3);
+  font-family: 'Quicksand Bold', sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

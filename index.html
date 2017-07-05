@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="http://www.iconsdb.com/icons/preview/black/github-6-xxl.png">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Arvo" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="taxes">
+      <form class="calculator" action="javascript:;" method="get">
+        <input class="tax-in num" id="c" type="number" step=".000001" value="" placeholder="Cost ($)">
+        <input class="tax-in num" id="t" type="number" step=".000001" value="" placeholder="Tax Rate (%)">
+        <input class="tax-in but" type="submit" value="Calculate">
+        <input class="tax-in but" type="reset" value="Reset">
+      </form>
+      <p class="tax-out">The taxes are: $<span id="tax-out"></span> and the total is: $<span id="cost-out"></span></p>
+    </div>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
+</html>
